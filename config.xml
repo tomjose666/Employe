@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.hackerz.personal app"
+        version   = "1.0">
+
+    <name>Anonymous</name>
+
+    <description>
+        Test Site
+    </description>
+
+    <author href="alientechnologies4u.wordpress.com" email="tomjose0000@gmail.com">
+        Anonymous
+    </author>
+
+    <preference name="permissions" value="none"/>
+	
+
+
+    <icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+    
+    
+   <gap:splash src="splash.png" gap:platform="android" gap:qualifier="ldpi" />
+   <gap:splash src="splash.png" gap:platform="android" gap:qualifier="mdpi" />
+   <gap:splash src="splash.png" gap:platform="android" gap:qualifier="hdpi" />
+   <gap:splash src="splash.png" gap:platform="android" gap:qualifier="xhdpi" />
+
+    
+
+</widget>
